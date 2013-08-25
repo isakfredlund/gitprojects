@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal"
+		android:background="@android:color/transparent">
+
+		<TextView
+		    android:id="@+id/depstation"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_marginLeft="10dp"
+		    android:gravity="center"
+		    android:text="depstation"
+		    android:textSize="16sp" />
+		
+		<TextView
+		    android:id="@+id/arrstation"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_marginLeft="10dp"
+		    android:gravity="center"
+		    android:text="arrstation"
+		    android:textSize="16sp"/>
+
+		<TextView
+		    android:id="@+id/deptime"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_marginLeft="10dp"
+		    android:text="traveltime"
+		    android:gravity="center"
+		    android:textSize="16sp"
+		    />
+
+		<TextView
+		    android:id="@+id/carrier"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_marginLeft="10dp"
+		    android:text="carrier"
+		    android:gravity="center"
+		    android:textSize="16sp" />
+
+</LinearLayout>
