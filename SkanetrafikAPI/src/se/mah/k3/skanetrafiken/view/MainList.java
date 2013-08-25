@@ -8,7 +8,6 @@ import se.mah.k3.skanetrafiken.xmlparser.Parser;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.ListActivity;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
@@ -54,7 +53,6 @@ public class MainList extends ListActivity {
     
     //Inner class for async task
     private class DoInBackground extends AsyncTask<String,Integer,Long>{
-    	ArrayList<Journey> resultlist;
 		@Override
 		protected Long doInBackground(String... params) {
 			publishProgress(1);
